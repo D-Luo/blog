@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>War of Information: How Can Journalism Win Back Its Audiences?</title>
+    <link rel="icon" href="./static/img/profile.jpg">
+    <link href="./static/main.css" rel="stylesheet">
+    <script src="./static/main.js"></script>
+    
+    <link href="./static/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/Post-DJ2.css" type="text/css"/><meta>
+  </head>
+  
+  <body>
+    <svg xmlns="./static/star-fill.svg" style="display: none;">
+      <symbol id="home" viewBox="0 0 16 16">
+        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+      </symbol>
+      <symbol id="grid" viewBox="0 0 16 16">
+        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+      </symbol>
+      <symbol id="linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+      </symbol>
+      <symbol id="instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+      </symbol>
+      <symbol id="mail" viewBox="0 0 16 16">
+        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+      </symbol>
+      <symbol id="star-file" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </symbol>
+      <symbol id="lightbulb" viewBox="0 0 16 16">
+        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+      </symbol> 
+    </svg> 
+
+    <header class="p-3 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <img src="./static/img/profile.jpg" alt="mdo" width="64" height="64" class="rounded-circle">&nbsp;&nbsp;
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li>
+              <a id="home" href="./index.html" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a id="post" href="./About.html" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#lightbulb"/></svg>
+                About me
+              </a>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+            <li>
+              <a id="mail" href="mailto:franciscoluo20@gmail.com" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="20" height="20"><use xlink:href="#mail"/></svg>
+                Email
+              </a>
+            </li>
+            <li>
+              <a id="linkedin" href="https://www.linkedin.com/in/francisco-luo/" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="20" height="20"><use xlink:href="#linkedin"/></svg>
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a id="instagram" href="https://www.instagram.com/francisco199903/" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="20" height="20"><use xlink:href="#instagram"/></svg>
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">War of Information: How Can Journalism 
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Win Back Its Audiences?</h1>
+            <p>There has been a paradox for journalism: audiences face a world flooded with content and information,
+                and yet the profession that should be the best skilled and most dedicated to helping them make sense 
+                of it all finds itself under great pressure, attacked on several fronts. These growing challenges are 
+                becoming universal in journalism: huge losses of revenue; worldwide technological disruption; and, most 
+                devastatingly, growing doubts about journalism’s quality, impartiality, and authority (Nielsen et al. 2020).             
+            </p><br>
+            <p>Printed content once dominated the world of information and even helped to form the modern idea of nationalism 
+                (Anderson 2016), with journalism at the forefront. In the last two decades, however, the rise to prominence of 
+                the internet has begun a competition for the attention of the news consuming public, and journalists are losing. 
+                From 2013 to 2021, print media halved and TV news declined in popularity as a news source in the UK, with the 
+                share of social media doubling in the same period. Additionally, there is almost no growth of online news platforms —
+                the main front now for the mainstream media (Newman et al. 2021).
+            </p><br>
+            <p>How, then, can the industry turn the tide and regain the trust of the public? A simple answer is to provide what the 
+                public wants and needs most - to be informed about events and threats as soon as possible, both locally and internationally, 
+                and with in-depth stories (Nelson 2021). I will detail four potential ways of achieving this.
+            </p>
+            <br><br><br>
+        <h2>Smarter and Deeper</h2>
+            <p>New technology like the artificial intelligence (Elmqvist et al.) should be used more extensively in journalism. News items 
+                like stock information, weather forecasts, sports results etc. can be produced automatically by software, something news organizations 
+                like the Washington Post and Forbes already do, by using algorisms to analyse data and generate news content (Carlson 2015). Such 
+                technology means that news organizations can now produce news smarter and faster, satisfying their “long-tail” readers while using 
+                less manpower and other resources.
+            </p><br>
+            <p>Many are concerned that AI might replace human journalists, but there is more opportunity than danger in this trend. The rising 
+                technology has the potential to free journalists from redundant and repetitive work, letting them be more investigative, and focus 
+                more on deeper stories behind the scenes. Combined with the rise of slow journalism, audiences interested in facts and truth underneath 
+                the surface might be drawn back to news stories.
+            </p><br><br><br>
+        <h3>Collaborate with Others</h3>
+            <p>The internet has narrowed the distance between continents and countries, and journalists should also make use of this. Collaboration with 
+                other journalists and news organizations across the world means the establishment of a giant global market, and most importantly, journalists 
+                can dig out stories globally and put them together with minimal additional resources required. The Pandora Papers investigation, with more 
+                than 600 journalists in 117 countries and territories working together to uncover the financial secrets of global elites (Shiel 2021), 
+                provides a perfect example of industry cooperation.  
+            </p><br>
+            <p>Multiple language services could be developed for international news organizations like the BBC. Worldwide partnerships with other news 
+                media should be made, as Sir Howard stringer suggested in his report on the BBC International services in 2014 (Stringer 2014). It is 
+                reasonable and profitable for large markets like South America to build a non-English news service. Moreover, reliable, and impartial 
+                local news partners from smaller markets mean that news can be gathered more quickly, without many employees, and that news from 
+                elsewhere can be delivered in time to local audiences.
+            </p><br>
+            <p>Meanwhile, traditional news organizations should embrace social media, and this means cooperation with other industries. Tech companies 
+                are trying to provide paid news content to users, either using integrated functions of social media applications like Facebook News Tab, 
+                or independent applications like Apple News plus. This could be a hitch ride for journalism.
+            </p><br><br><br>
+        <h3>Tackle Fake News</h3>
+            <p>Part of the reason for the declining regard of audiences for traditional journalism is that audiences are wary of untrustworthy news. 
+                People want and deserve the clear, unmanipulated truth. For this reason, fake news is a serious enemy of professional journalism, 
+                and we should oppose it, not just for ourselves, but also for the public (Zhang and Ghorbani 2020). 
+            </p><br>
+            <p>At the industry level, consensus should be reached that there is no place for fake or partial news content, no matter how big the 
+                disagreement in political opinions or conflict of interest is for news producers. This does appear to be a formidable task, but 
+                the world is broken enough, and journalists cannot and should not be the ones to tear it apart.
+            </p><br>
+            <p>More practically, journalists should use their professional knowledge and skills to tackle fake news. News organisations can build 
+                specialised fact-checking departments to investigate potential inauthentic news and provide the truth to the public. Naturally, 
+                the audience can also provide relevant information, which might enhance interaction between journalists and the public. Furthermore, 
+                the automatic detection of fake news should also be put into wider practice (Pérez-Rosas et al. 2017).
+            </p><br><br><br>
+        <h3>Try to Eliminate Mistakes</h3>
+            <p>Last but not least, attempt to make no mistakes. The public, or at least certain sections of it, are highly sceptical about news, 
+                and when news is related to certain individuals or groups, there are always huge interests behind it. No matter how much information 
+                we deliver to the public, or how quickly, it is for nought if the news provided isn’t accurate.
+            </p><br>
+            <p>Eyes are on us and our works, meaning that journalists can’t afford to make any mistakes.  Unfortunately, these mistakes are common. 
+                From the former BBC journalist Martin Bashir's interview with Princess Diana to the misidentification of Lord McAlpine; from Jayson 
+                Blair of The New York Times’ plagiarism scandal to the phone-hacking scandal of News of the World (Cathcart 2012), journalists are 
+                losing credit from the public because of our misbehaviour.
+            </p><br>
+            <p>For a news story, it’s not just the accuracy of content, but also the validity of the production process that matters, as emphasised 
+                in almost every guideline for journalists. To some degree, the theory of procedural justice also applies to journalism. Journalists 
+                can’t threaten others to get to the truth, just as confessions extracted by torture are not legally valid evidence in court.
+            </p><br>
+            <p>On the other hand, we should respond with speed and strength when there is a mistake. Although nowadays almost every news organisation 
+                has guidelines for journalists, that’s far from enough. There should be more strict regulations, even laws, for journalism, not to 
+                restrict press freedom, but to ensure the process and outcome of journalism are solid.
+            </p>
+            <p>Both journalists and the public should know that once a news story goes wrong, there will be consequences and whoever is responsible 
+                will be punished. By providing impartial, spotless news and imposing serious penalties on those who make mistakes, journalists can 
+                prove that they are trustworthy and ease doubts from the public about their quality, impartiality, and authority.
+            </p><br>
+            <p>To conclude, to regain the trust of the public and retake its dwindling market share, journalism should adapt to the rapidly changing 
+                technology and market, while also improving itself. Journalism should have a place in the future, people inside the industry should 
+                do their utmost to ensure that.
+            </p><br><br><br>
+        <h4>Reference</h4>
+            <p2> Anderson, B. R. O. G. 2016. Imagined communities : reflections on the origin and spread of nationalism. Revised edition ed. London ;: Verso.
+              <br><br>
+              Carlson, M. 2015. The Robotic Reporter. Digital Journalism 3(3), pp. 416-431. doi: 10.1080/21670811.2014.976412
+              <br><br>
+              Cathcart, B. 2012. Everybody's hacked off : why we don't have the press we deserve and what to do about it. London: Penguin Books.
+              <br><br>
+              Elmqvist, T. et al. 2013. Urbanization, biodiversity and ecosystem services: challenges and opportunities: a global assessment. Springer Nature.
+              <br><br>
+              Nelson, J. L. 2021. The next media regime: The pursuit of ‘audience engagement’ in journalism. Journalism 22(9), pp. 2350-2367. doi: 10.1177/1464884919862375
+              <br><br>
+              Newman, N., Fletcher, R., Schulz, A., Andi, S., Robertson, C. and Nielsen, R. 2021. The Reuters Institute Digital News Report 2021.  
+              <br><br>
+              Nielsen, R., Cherubini, F. and Andi, S. 2020. Few winners, many losers: the COVID-19 pandemic’s dramatic and unequal impact on independent news media.  
+              <br><br>
+              Pérez-Rosas, V., Kleinberg, B., Lefevre, A. and Mihalcea, R. 2017. Automatic Detection of Fake News.  
+              <br><br>
+              Shiel, F. 2021. About the Pandora Papers. The International Consortium of Investigative Journalists. Available at: https://www.icij.org/investigations/pandora-papers/about-pandora-papers-investigation/ [Accessed. 
+              <br><br>
+              Stringer, H. 2014. 2022: Towards 500 million. Available at: http://downloads.bbc.co.uk/mediacentre/howard-stringer-report.pdf 
+              <br><br>
+              Zhang, X. and Ghorbani, A. A. 2020. An overview of online fake news: Characterization, detection, and discussion. Information processing & management 57(2), p. 102025. doi: 10.1016/j.ipm.2019.03.004
+            </p2><br>            
+      </div>
+       </div><br><br><br><br>
+    <a id="login" class="position-absolute top-10 end-0 btn btn btn-primary me-2" href="./Post-DJ1.html" role="button">Next Page &nbsp;&raquo;&raquo;</a><br><br>
+   
+    <div id="footer" class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-2">
+            <strong>Page</strong>
+          </div>
+          <div class="col-2">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 text-muted">Home</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="./About.html" class="nav-link p-0 text-muted">About me</a></li>
+            </ul>
+          </div>      
+        </div>
+    
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <div class="row">
+            &copy; 2022 D.LUO All rights reserved.
+          </div>
+          <div class="row"> 
+            Posts are free to share for non-commercial usage (with attribution).
+          </div>
+          <div class="row">  
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="//twitter.com/share?url=&amp;text="><svg class="bi" width="24" height="24"><use xlink:href="#mail"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="//www.facebook.com/sharer.php?u="><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>       
+              <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/francisco199903/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

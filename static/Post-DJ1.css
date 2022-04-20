@@ -1,0 +1,147 @@
+.title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  left: 40px;
+  right: 0;
+  top: 40px;
+  margin: auto;
+  bottom: 0;
+  color: rgb(8, 8, 8);
+  font-size: 50px;
+  font-weight: 500;
+  font-family: sans-serif;
+  width: 60%;
+}
+
+h2{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  top: 50px;
+  left: 365px;
+  margin: auto;
+  color: rgb(8, 8, 8);
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+h3{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  top: 80px;
+  left: 310px;
+  margin: auto;
+  color: rgb(8, 8, 8);
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+p {
+  position: relative;
+  display: flex;
+  top: 50px;
+  margin: auto;
+  bottom: 0;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  font-weight: 350;
+  font-family: sans-serif;
+  perspective: 340px;
+  width: 50%;
+  text-align:left;
+  line-height: 30px; 
+}
+
+.bgc{
+    position: relative;
+  display: flex;
+  justify-content: center;
+  top: 10px;
+  margin: auto;
+  color: rgb(8, 8, 8);
+  font-size: 15px;
+  font-family: sans-serif;  
+}
+
+h4{
+  position: relative;
+  justify-content: left;
+  top:-10px;
+  left: 310px;
+  width: 30%;}
+
+h5{
+  position: relative;
+  justify-content: left;
+  top: -448px;
+  left: 740px;
+  width: 30%;}
+
+h6{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  top: 10px;
+  left: 360px;
+  margin: auto;
+  color: rgb(8, 8, 8);
+  font-size: 15px;
+  font-weight: 350;
+  font-family: sans-serif;
+}
+
+h7 {
+  position: relative;
+  display: flex;
+  top: -450px;
+  margin: auto;
+  bottom: 0;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  font-weight: 350;
+  font-family: sans-serif;
+  perspective: 340px;
+  width: 45%;
+  text-align:left;
+  line-height: 30px; 
+}
+
+.chart{
+  position: relative;
+  justify-content: center;
+  top: -400px;
+  left: 350px;
+  margin: auto;
+  width: 50%;
+}
+
+h8{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  top: -400px;
+  left: 365px;
+  margin: auto;
+  color: rgb(8, 8, 8);
+  font-size: 15px;
+  font-weight: 350;
+  font-family: sans-serif;
+}
+
+h9 {
+  position: relative;
+  display: flex;
+  top: -350px;
+  margin: auto;
+  bottom: 0;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  font-weight: 350;
+  font-family: sans-serif;
+  perspective: 340px;
+  width: 45%;
+  text-align:left;
+  line-height: 30px; 
+}
